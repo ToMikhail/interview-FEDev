@@ -5,9 +5,9 @@
 - #### Basics
 
   - [x] [Data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-  - [x] Number methods
-  - [x] String methods
-  - [x] let var const - differences
+  - [x] [Number methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger)
+  - [x] [String methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+  - [x] let var const - differences(https://www.geeksforgeeks.org/difference-between-var-let-and-const-keywords-in-javascript/)
   - [x] ternary operator
   - [x] switch case - examples, where it can be useful
   - [x] type conversions
