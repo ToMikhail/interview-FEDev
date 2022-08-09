@@ -4,13 +4,13 @@
 
 - #### Basics
 
-  - [Data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-  - Number methods
-  - String methods
-  - let var const - differences
-  - ternary operator
-  - switch case - examples, where it can be useful
-  - type conversions
+  - [x] [Data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+  - [x] Number methods
+  - [x] String methods
+  - [x] let var const - differences
+  - [x] ternary operator
+  - [x] switch case - examples, where it can be useful
+  - [x] type conversions
 
 - #### Advanced Expressions
 
