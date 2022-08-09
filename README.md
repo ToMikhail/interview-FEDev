@@ -7,57 +7,57 @@
   - [x] [Data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
   - [x] [Number methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger)
   - [x] [String methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
-  - [x] let var const - differences(https://www.geeksforgeeks.org/difference-between-var-let-and-const-keywords-in-javascript/)
-  - [x] ternary operator
-  - [x] switch case - examples, where it can be useful
-  - [x] type conversions
+  - [x] [let var const - differences](https://www.geeksforgeeks.org/difference-between-var-let-and-const-keywords-in-javascript/)
+  - [x] [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+  - [x] [switch case - examples, where it can be useful](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+  - [x] [type conversions](https://javascript.info/type-conversions)
 
 - #### Advanced Expressions
 
-  - Be able to discover cases of implicit data types conversion into boolean, string, number
-  - Strict comparison
-  - `Object.is` `(optional)`
-  - what is polyfills
+  - [] Be able to discover cases of implicit data types conversion into boolean, string, number
+  - [] Strict comparison
+  - [] `Object.is` `(optional)`
+  - [] what is polyfills
 
 - #### Function
 
-  - arrow func/ func expression/ func declaration
+  - [] arrow func/ func expression/ func declaration
 
 - #### Date & time `(optional)`
 
-  - Date object
-  - Date methods, props
+  - [] Date object
+  - [] Date methods, props
 
 - #### Objects Built-in methods.
 
-  - Know how to use built-in methods
+  - [] Know how to use built-in methods
 
 - #### Arrays Built-in methods
 
-  - Know how to copy array
-  - Know how to modify array
+  - [] Know how to copy array
+  - [] Know how to modify array
 
 - #### Arrays Iterating, Sorting, Filtering
 
-  - Know how to sort Array
-  - Know several method how to iterate Array elements
+  - [] Know how to sort Array
+  - [] Know several method how to iterate Array elements
 
 - #### Loops
 
-  - for loop
-  - while loop
-  - do while loop
+  - [] for loop
+  - [] while loop
+  - [] do while loop
 
 ### JavaScript in Browser:
 
 - #### Global object window
 
-  - Document
+  - [] Document
 
 - #### Events Basics
 
-  - Event Phases
-  - Event Listeners
+  - [ ] Event Phases
+  - [ ] Event Listeners
   - DOM Events
   - Know basic Event types
   - Mouse / Keyboard Events
