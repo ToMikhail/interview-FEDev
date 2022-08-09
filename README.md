@@ -16,8 +16,8 @@
 
   - [x] [Be able to discover cases of implicit data types conversion into boolean, string, number](https://betterprogramming.pub/implicit-and-explicit-coercion-in-javascript-b23d0cb1a750)  
   - [one more](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
-  - [ ] [Strict comparison](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality)
-  - [ ] [`Object.is` `(optional)`]()
+  - [x] [Strict comparison](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality)
+  - [x] [Object.is `(optional)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)
   - [ ] [what is polyfills]()
 
 - #### Function
