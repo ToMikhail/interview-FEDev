@@ -19,7 +19,7 @@
   - [x] [Strict comparison](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality)
   - [x] [Object.is `(optional)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)
   - [x] [what is polyfills](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
-     - `video` - (https://www.youtube.com/watch?v=kZspl_rkeFY)
+        - `video` - (https://www.youtube.com/watch?v=kZspl_rkeFY)
 
 - #### Function
 
