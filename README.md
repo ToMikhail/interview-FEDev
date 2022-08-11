@@ -24,8 +24,8 @@
 - #### Function
 
   - [ ] [arrow func/ func expression/ func declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-   - `one more - arrow function`
-- #### Date & time `(optional)` - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+   - `one more - arrow function` - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+- #### Date & time `(optional)`
 
   - [ ] [Date object]()
   - [ ] [Date methods, props]()
