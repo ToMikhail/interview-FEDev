@@ -23,11 +23,11 @@
 
 - #### Function
 
-  - [ ] [arrow func/ func expression/ func declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+  - [x] [arrow func/ func expression/ func declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
    - `one more - arrow function` - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 - #### Date & time `(optional)`
 
-  - [ ] [Date object]()
+  - [x] [Date object](https://javascript.info/date)
   - [ ] [Date methods, props]()
 
 - #### Objects Built-in methods.
