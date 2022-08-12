@@ -36,7 +36,7 @@
 
 - #### Arrays Built-in methods
 
-  - [ ] [Know how to copy array]()
+  - [x] [Know how to copy array](https://www.samanthaming.com/tidbits/35-es6-way-to-clone-an-array/)
   - [ ] [Know how to modify array]()
 
 - #### Arrays Iterating, Sorting, Filtering
