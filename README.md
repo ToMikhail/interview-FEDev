@@ -28,11 +28,11 @@
 - #### Date & time `(optional)`
 
   - [x] [Date object](https://javascript.info/date)
-  - [ ] [Date methods, props]()
+  - [x] [Date methods, props](https://javascript.info/date)
 
 - #### Objects Built-in methods.
 
-  - [ ] [Know how to use built-in methods]()
+  - [x] [Know how to use built-in methods](https://dev.to/elpepebenitez/built-in-methods-in-javascript-4bll)
 
 - #### Arrays Built-in methods
 
