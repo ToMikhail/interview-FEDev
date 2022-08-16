@@ -55,7 +55,7 @@
 
 - #### Global object window
 
-  - [ч] [Document](https://javascript.info/global-object)
+  - [x] [Document](https://javascript.info/global-object)
 
 - #### Events Basics
 
