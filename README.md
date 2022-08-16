@@ -41,8 +41,9 @@
 
 - #### Arrays Iterating, Sorting, Filtering
 
-  - [ ] [Know how to sort Array]()
-  - [ ] [Know several method how to iterate Array elements]()
+  - [x] Know how to sort Array - [sort()](https://www.w3schools.com/jsref/jsref_sort.asp)
+                               - [filtr()](https://www.w3schools.com/jsref/jsref_filter.asp)
+  - [x] [Know several method how to iterate Array elements](https://www.geeksforgeeks.org/ways-iterating-array-javascript/)
 
 - #### Loops
 
