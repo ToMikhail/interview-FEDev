@@ -41,15 +41,15 @@
 
 - #### Arrays Iterating, Sorting, Filtering
 
-  - [x] Know how to sort Array - [sort()](https://www.w3schools.com/jsref/jsref_sort.asp)
-                               - [filtr()](https://www.w3schools.com/jsref/jsref_filter.asp)
+  - [x] Know how to sort Array - [sort()](https://www.w3schools.com/jsref/jsref_sort.asp);
+                               - [filtr()](https://www.w3schools.com/jsref/jsref_filter.asp);
   - [x] [Know several method how to iterate Array elements](https://www.geeksforgeeks.org/ways-iterating-array-javascript/)
 
 - #### Loops
 
-  - [ ] [or loop]()
-  - [ ] [while loop]()
-  - [ ] [do while loop]()
+  - [x] [or loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)
+  - [x] [while loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#while_statement)
+  - [x] [do while loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#do...while_statement)
 
 ### JavaScript in Browser:
 
