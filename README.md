@@ -55,7 +55,8 @@
 
 - #### Global object window
 
-  - [x] [Document](https://javascript.info/global-object)
+  - [x] [Global object](https://javascript.info/global-object)
+  - [x] [DOM](https://javascript.info/dom-nodes)
    - video - {https://www.youtube.com/watch?v=DuWyc76lYC4} 
 
 - #### Events Basics
