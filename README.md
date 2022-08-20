@@ -61,7 +61,7 @@
 
 - #### Events Basics
 
-  - [ ] [vent Phases]()
+  - [x] [vent Phases](https://javascript.info/bubbling-and-capturing)
   - [ ] [Event Listeners]()
   - [ ] [DOM Events]()
   - [ ] [now basic Event types]()
