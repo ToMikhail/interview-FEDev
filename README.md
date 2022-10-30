@@ -50,10 +50,10 @@ let letNumber = 1;
 TDZ: термин для описания состояния - когда переменные недоступны. Они находятся в области видимости, но не объявлены. Переменные let и const существуют в TDZ с начала их объемлющей области видимости до момента их объявления.  
 
 - ## Методы создания functions   
-> 1. Function decloration
-> 2. Function expression
-> 3. Arrow function (стрелочная функция) - не имеет лексического окружения this. 
-> 4. Immediately-Invoked Function Expressions (IIFE).   
+> 1. Function decloration - function calcRectArea(width, height) {return width * height;}
+> 2. Function expression - const getRectArea = function(width, height) { return width * height; };
+> 3. Arrow function (стрелочная функция) - не имеет лексического окружения this. - (a, b) => a + b + 100;
+> 4. Immediately-Invoked Function Expressions (IIFE). - (() => { let secondVariable; })***()***;  
 
 > Стрелочные функции отличаются от обычных не только способом записи. Главное их отличие проявляется в том, как они работают с контекстом. Вкратце: контекст обычных функций зависит от места вызова, а контекст стрелочных функций — от того места, где они были определены.
 ```
@@ -79,6 +79,48 @@ const obj = {
 obj.f1(); // undefined or window
 obj.f2(); // { f1: [Function: f1], f2: [Function: f2] }
 ```
+- ## Event Loop  
+>JS - это однопоточный язык. EventLoop - это меъанизм обрабатывающий порядок выполнения async и sync операций и событий.   
+>Event Loop состиоит из следующих элементов:   
+  1. CallStack;
+  2. Web API - для обработки функций кторые выполняет браузер (SetTimeout, SetInterval())
+  3. Call Back Queue:
+    * Micro Tasks - для Promise - переадется из очереди в Call back в первую очередь;
+    * Macro Tasks - для SetTimeOout() - после выполнения micro tasks
+
+
+- ## Context и this (bind(), aply(), call())
+>Context формируется в момент вызова функции.   
+>Что бы добавить контекст сожено:   
+>  * обернуть в функцию;
+>  * C помощью метода bind(context) - метод не вызывается;
+>  * C помощью bind(context, args);
+
+> Есть 3 метода  для привязывания контекста:   
+>  * call()
+>  * aply([]) - передаетяс массив;
+>  * bind(context)
+- ## Promise
+>Promise - это объект кторый принимает в качестве аргумента функцию
+```
+let promise = new Promise(function(resolve, reject) {
+  // функция-исполнитель (executor)
+
+});
+```
+> Её аргументы resolve и reject – это колбэки, которые предоставляет сам JavaScript. Наш код – только внутри исполнителя.   
+> Когда он получает результат, сейчас или позже – не важно, он должен вызвать один из этих колбэков:
+  * resolve(value) — если работа завершилась успешно, с результатом value.
+  * reject(error) — если произошла ошибка, error – объект ошибки.
+> у Promise есть следующие методы: 
+  * .then() - куда приходит данные ressolve
+  *  .catch() - для перехвата ошибок, отрабатывает на reject();
+  *  .fanally() - не принимает в аргуменыт ничего - отработает в любом случае и при resolve и при reject;
+> В класса объектов Promise есть следующие методы для обрадотки потока из несколкьких Primse:
+  * Promise.all([Promise1, Promise2, Promise3]) - вернет значение массива когда каждый промис успешно выполнитсяж
+  * Promise.race([Promise1, Promise2, Promise3]) - вернет значение первого выполненого Promise;
+  * Promise.all([Promise1, Promise2, Promise3]) - вернет массив когда отработают все, не имеет занчения успешно(fulfield) или неуспешно(rejected)
+
 
 # JavaScript:
 
